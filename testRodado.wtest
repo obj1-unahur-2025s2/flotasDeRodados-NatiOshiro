@@ -1,9 +1,14 @@
-import example.pepita
+import rodado.*
+import dependencia.*
 
-describe "group of tests for pepita" {
+describe "Test con dos dependencias" {
 
-  test "pepita has initial energy" {
-    assert.equals(100, pepita.energy())
+  method initialize() {
+    var deportes = new Dependencia ()
+
   }
 
+  test "description" {
+    
+  }
 }
